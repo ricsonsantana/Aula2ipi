@@ -7,3 +7,17 @@ https://www.youtube.com/watch?v=hLyWaAYExfk
 aula 4
 https://www.youtube.com/watch?v=O1KzlDRSd8w
 
+---------
+echo "# Aula2ipi" >> README.md
+git init
+git add README.md
+	ou git add *
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ricsonsantana/Aula2ipi.git
+git push -u origin main
+
+---------
+git remote add origin https://github.com/ricsonsantana/Aula2ipi.git
+git branch -M main
+git push -u origin main
