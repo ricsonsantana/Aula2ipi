@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Formulários em HTML</title>
+    </head>
+    <body>
+        <form action="respostas.html" method="post" autocomplete="off">
+            <label>Nome completo</label><br>
+            <input type="text" name="nome" placeholder="Seu nome"><br>
+            <label>Digite um elogio</label><br>
+            <textarea></textarea><br>
+            
+            <div class="field radiobox">
+                <label>O que deseja aprender ?</label><br>
+                <input type="radio" name="aprender" id="sim" value="sim" checked><Label for="sim">Sim</Label><br>
+                <input type="radio" name="aprender" id="não" value="nao"><Label for="sim">Não</Label></br>
+            </div>
+
+            <div class="field radiobox">
+                <span>Deseja receber nossas novidades?</span>
+                <input type="radio" name="novidades" id="sim" value="sim" checked><label for="sim">Sim</label>
+                <input type="radio" name="novidades" id="nao" value="nao"><label for="nao">Não</label>
+            </div>
+
+            <label>O que deseja aprender ?</label><br>
+            <input type="checkbox"  value="html"/> HTML<br />
+            <input type="checkbox"  value="css"/> CSS<br />
+            <input type="checkbox"  value="javascript"/> JavaScript<br />
+
+            <label>Login</label><br>
+            <input type="text" id="login"><br>
+            <label>Senha</label><br>
+            <input type="password" id="senha"><br>
+
+            <label>Data de Nascimento</label><br>
+            <input type="date"><br><br>
+            
+            <div>
+                <label for="file">Escolha um arquivo</label>
+                <input type="file" id="file" name="myFile" />
+              </div>
+              <div>
+                <button>Enviar um arquivo</button>
+              </div>
+
+            <button type="reset"> Limpar</button>
+            <button type="submit" valeu="enviar">Enviar</button>
+
+        </form>
+        
+
+    </body>
+</html>
